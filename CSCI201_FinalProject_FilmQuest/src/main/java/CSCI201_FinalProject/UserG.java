@@ -1,15 +1,15 @@
 package CSCI201_FinalProject;
 
-import java.io.BufferedReader;
-import java.io.PrintWriter;
-import java.net.Socket;
-
 public class UserG {
-	private Socket socket;
-	private PrintWriter pw;
-	private BufferedReader br;
 	
 	public void register() {
+		
+		/*Note*** This class is useless because a guest user just navigates through the front-end without any details. 
+		 * The authenticated class, UserA, is meant to store data from the Database as a convenience so eventually send to front-end in a JSON.
+		 * Note also that UserA cannot be converted to a JSON directly using JSON because it has non-primitive data-members (i.e, a Movie hashmap)
+		 * 
+		 * 
+		 */
 		
 	}
 }
